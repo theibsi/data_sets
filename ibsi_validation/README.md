@@ -1,7 +1,8 @@
-IBSI-1 validation dataset
+IBSI validation dataset
 ===
 
-This dataset was used to validate the findings in the IBSI 1 study. The `GTV_Mass` contour was used.
+This dataset is used to validate findings for the IBSI (in both Chapter 1 & 2). 
+Feature extraction is performed on the `GTV_Mass` contour.
 
 The phantom is available in both DICOM and NIfTI formats, and consists of the image itself (image) and its segmentation (mask).
 The segmentation in DICOM format is an RTSTRUCT and needs to be converted to a voxel mask, whereas in the NIfTI format, the mask is already a voxel mask.
